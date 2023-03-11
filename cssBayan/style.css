@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&family=Merriweather:wght@400;700&family=Oswald:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 211, 179);
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    padding: 5rem 0 0;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__title {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.main {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.input-hidden {
+    width: 0;
+    height: 0;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0.1rem 0;
+    border-top: 0.1rem solid rgb(144, 142, 142);
+    cursor: pointer;
+}
+
+.modal__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal__title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: rgb(7, 7, 247);
+    transition: .5s ease-in-out;
+}
+
+
+.modal__icon {
+    width: 1.2rem;
+    transform: rotate(45deg);
+    transition: 0.2s ease-in-out;
+    fill: transparent;
+}
+
+.modal__img {
+    width: 0vw;
+    scale: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.bayan:hover .modal__icon {
+    width: 1.2rem;
+    transform: rotate(45deg);
+    transition: 0.2s ease-in-out;
+    fill: #000;
+}
+
+.bayan:hover .modal__title {
+    color: #000;
+}
+
+/*==== modal-1 =====*/
+.modal-1:hover .modal__img-1 {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.modal-1:hover .modal__icon-1 {
+    transform: rotate(0);
+    fill: #000;
+}
+
+/*==== modal-1 =====*/
+
+
+/*==== modal-2 =====*/
+
+.modal-2:hover .modal__img-2 {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.modal-2:hover .modal__icon-2 {
+    transform: rotate(0);
+    fill: #000;
+}
+
+/*==== modal-2 =====*/
+
+
+/*==== modal-3 =====*/
+
+.modal-3:hover .modal__img-3 {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.modal-3:hover .modal__icon-3 {
+    transform: rotate(0);
+    fill: #000;
+}
+
+/*==== modal-3 =====*/
+
+
+/*==== modal-4 =====*/
+
+.modal-4:hover .modal__img-4 {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.modal-4:hover .modal__icon-4 {
+    transform: rotate(0);
+    fill: #000;
+}
+
+/*==== modal-4 =====*/
+
+
+/*==== modal-5 =====*/
+
+.modal-5:hover .modal__img-5 {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.modal-5:hover .modal__icon-5 {
+    transform: rotate(0);
+    fill: #000;
+}
+
+/*==== modal-5 =====*/
