@@ -50,13 +50,13 @@ body {
 }
 
 .modal__header {
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .modal__title {
-    margin-bottom: 1rem;
     font-size: 2rem;
     color: rgb(7, 7, 247);
     transition: .5s ease-in-out;
